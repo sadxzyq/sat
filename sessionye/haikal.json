@@ -39,8 +39,8 @@
     },
     "registrationId": 143,
     "advSecretKey": "bF9LB5neSD4v5MDWE/HjtpuvOsqiAtCxm0MFlwAdjtM=",
-    "nextPreKeyId": 35,
-    "firstUnuploadedPreKeyId": 35,
+    "nextPreKeyId": 37,
+    "firstUnuploadedPreKeyId": 37,
     "serverHasPreKeys": true,
     "account": {
       "details": "CMSKmsQCEO2C05sGGAg=",
@@ -400,6 +400,26 @@
           "type": "Buffer",
           "data": "YzvhhvIWZwGuMk1ceL5fOEsXPpP6806NoaCXpIA5Wmk="
         }
+      },
+      "35": {
+        "private": {
+          "type": "Buffer",
+          "data": "eKBMitFjT3YHHgTDEaWQsPtY4JFVHmq5asoSsjDs6nI="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "E+qWFV7aBX6KdqXpz1vjOiTJt380tWYeu/jeuXWLflQ="
+        }
+      },
+      "36": {
+        "private": {
+          "type": "Buffer",
+          "data": "WGltxy76b5GAp4anrPAC6+G1+8NHuvE9CVz7sIdxAGU="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "Ps7AptGwIQQN2VxLenE9OVfZmpvgQdc7ybP+WqSaVA8="
+        }
       }
     },
     "sessions": {
@@ -420,7 +440,7 @@
               "baseKey": "BTxTJxGfvGKDAMuS5LzUauISoyu8SIkH7tVtLUpoYXcG",
               "baseKeyType": 2,
               "closed": -1,
-              "used": 1668624929567,
+              "used": 1668625098950,
               "created": 1668596085905,
               "remoteIdentityKey": "BTtlIuzSfUWIecifEKljv+q/RaJi4UuwbzW/0U/uIxRL"
             },
@@ -450,8 +470,8 @@
               },
               "BYtUcQVrVCAy03484GT3GgjT00lZhlJMBBj0U8Op5X8b": {
                 "chainKey": {
-                  "counter": 11,
-                  "key": "bXSfx2iaNJxnVIT3PJkbifDrBRjj3MxCQ2EVR0KoJm0="
+                  "counter": 13,
+                  "key": "nJdLAeQ+No4Yw/SPID2ddj03oQLVLr0xWoyj3TTErHA="
                 },
                 "chainType": 2,
                 "messageKeys": {
@@ -570,15 +590,15 @@
               "baseKey": "BUMsW9rdwl+Lhd3YwnbIhvJInO4cP4TZ79TaSljhwc48",
               "baseKeyType": 1,
               "closed": -1,
-              "used": 1668624332996,
+              "used": 1668625473613,
               "created": 1668622107140,
               "remoteIdentityKey": "BSUw1RP/Fnv820Sh+6WiGRUJHBO/NhoDelCjGq9DzuBd"
             },
             "_chains": {
               "Bar6gQVCRSbgO3a5kzO+DChA7OboWMtRC678+yHpz9cu": {
                 "chainKey": {
-                  "counter": 0,
-                  "key": "e53+Mt3MYw/GTQ+9MXNYdQNsDU5Nxuwm4dsdZOjJif0="
+                  "counter": 1,
+                  "key": "1BCBVJFKF0fyeA4a3/2MvwDzAf/jfEhIxgqOfzgFTz0="
                 },
                 "chainType": 2,
                 "messageKeys": {}
@@ -627,13 +647,14 @@
         {
           "senderKeyId": 1666644604,
           "senderChainKey": {
-            "iteration": 2,
-            "seed": "haORsHQXLXqbLh7ijoxinr5NaSbskMfKHKfHARH03Ks="
+            "iteration": 3,
+            "seed": "CY+n3ohbiprmCrdpwb7lpBu5dfvRRtfBpBvowjuV9rY="
           },
           "senderSigningKey": {
             "public": "Bfl/IkUqqs6H9o81jnlcHoVYRSyJyAGY3OiBHILEKfAR",
             "private": "oCjbj/W8BQM+x5y5tlxVReepaSq5BX6b6w9d05+oHGA="
-          }
+          },
+          "senderMessageKeys": []
         }
       ]
     },
